@@ -14,4 +14,5 @@ USE codeup_test_db;
 -- SET artist_name = 'Peter Jackson'
 -- WHERE artist_name = 'Micheal Jackson';
 SELECT 'Peter' AS 'King of Pop';
+SELECT artist_name as 'BEST' from albums where id = 2;
 SELECT * FROM albums;
